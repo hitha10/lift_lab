@@ -1,0 +1,75 @@
+#calorie-tracker {
+    background: transparent;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #635454;;
+    transition: 0.3s;
+    animation: ease-in 1s;
+}
+#calorie-tracker h2{
+    color: #fff;
+}
+#calorie-tracker:hover{
+    transform: scale(1.02);
+}
+#calorie-form {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+  
+#calorie-form label {
+    margin: 5px 0;
+}
+  
+#calorie-form input {
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
+  
+#calorie-form button {
+    padding: 10px;
+    background-color: #635454;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+#calorie-form button:hover {
+    background-color: #000000;
+    border-color: black;
+    box-shadow: 0px 0px 10px #635454;;
+    transition: 0.3s;
+    animation: ease-in 1s;
+}
+  
+#calorie-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+  
+#calorie-list li {
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+.total-calories {
+    font-weight: bold;
+    color: rgb(255, 255, 255) ;
+}
+#total-calories {
+    font-weight: bold;
+    color: white ;
+}
+  

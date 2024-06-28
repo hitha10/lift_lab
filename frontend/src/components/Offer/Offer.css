@@ -1,0 +1,27 @@
+.offer-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px #635454;;
+    transition: 0.3s;
+    animation: ease-in 1s;
+}
+.offer-container:hover{
+    transform: scale(1.02);
+} 
+.offer-container h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+  
+.offer-container p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fffefe;
+}
+  
